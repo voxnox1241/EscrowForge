@@ -1,0 +1,7 @@
+contracts/target/
+frontend/node_modules/
+frontend/out/
+frontend/.next/
+.env.local
+.DS_Store
+.claude/
