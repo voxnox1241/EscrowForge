@@ -1,6 +1,6 @@
 # 🛡️ EscrowForge — Translucent Milestone Escrow on Stellar Soroban
 
-[![CI/CD](https://github.com/benr246/Keystone/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/benr246/Keystone/actions/workflows/ci.yml)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-5_jobs_defined-22C55E?logo=githubactions&logoColor=white)](#cicd-pipeline)
 [![Stellar Testnet](https://img.shields.io/badge/Stellar-Testnet-7B61FF?logo=stellar&logoColor=white)](https://stellar.org)
 [![Soroban](https://img.shields.io/badge/Soroban-SDK%20v25-orange?logo=rust&logoColor=white)](https://developers.stellar.org/docs/build/smart-contracts)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org)
