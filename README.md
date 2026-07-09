@@ -155,17 +155,21 @@ The application implements three distinct, custom-designed user-facing error sta
 ![Mobile landing at 390px](screenshots/mobile-landing-390px.png)
 
 
+**Connected state + XLM balance**
+
+![Wallet connected with XLM balance](screenshots/wallet-connected-balance.png)
+
 **Live activity feed**
 
 `PENDING — Take and place screenshot showing disbursed milestone cards plus the Activity Feed polling real contract events`
 
 **CI/CD run**
 
-`PENDING — Take and place screenshot showing CI checks passing`
+![CI checks all passing](screenshots/ci-all-checks-green.png)
 
 **Test output**
 
-`PENDING — Take and place screenshot showing cargo test output`
+![cargo test output from CI](screenshots/cargo-test-output.png)
 
 ---
 
