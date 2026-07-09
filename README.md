@@ -84,7 +84,7 @@ If the agreement is aborted early, all still-secured (locked) stages are returne
 
 | Contract | Address | Stellar Expert Link |
 |---|---|---|
-| EscrowForge | `PENDING — Deploy contract to testnet and write address here` | [Stellar Expert (Testnet)](https://stellar.expert/explorer/testnet/contract/PENDING) |
+| EscrowForge | `CDX6WKGBC4VQINRMWACSPZXDILBR6VQHA6TVJUBJUWG2JE5NBE2DJDJY` | [Stellar Expert (Testnet)](https://stellar.expert/explorer/testnet/contract/CDX6WKGBC4VQINRMWACSPZXDILBR6VQHA6TVJUBJUWG2JE5NBE2DJDJY) |
 | Native XLM SAC (token) | `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC` | [Stellar Expert (Testnet)](https://stellar.expert/explorer/testnet/contract/CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC) |
 
 ---
@@ -98,9 +98,9 @@ Every fund movement in EscrowForge is a real Soroban cross-contract invocation f
 *   `abort_deal` -> `token.transfer(escrow_contract, creator, refunded_total)` — returns all still-secured stage balances to the creator.
 
 On-chain proof:
-*   `create_escrow` / `forge_deal` transaction: `PENDING — Record transaction hash here after execution`
-*   `release_milestone` / `disburse_stage` transaction: `PENDING — Record transaction hash here after execution`
-*   `cancel_escrow` / `abort_deal` transaction: `PENDING — Record transaction hash here after execution`
+*   `create_escrow` / `forge_deal` transaction: [`0085fedea2a723147d2c7bf0078b8d13d73440270beedd6b0d6e4f99853bfeb6`](https://stellar.expert/explorer/testnet/tx/0085fedea2a723147d2c7bf0078b8d13d73440270beedd6b0d6e4f99853bfeb6)
+*   `release_milestone` / `disburse_stage` transaction: [`2a50b421c56d9fbb877ba659ea46b36b0ab85b10b598c3518f3d864ff7e1935d`](https://stellar.expert/explorer/testnet/tx/2a50b421c56d9fbb877ba659ea46b36b0ab85b10b598c3518f3d864ff7e1935d)
+*   `cancel_escrow` / `abort_deal` transaction: [`f68d96cb4218a3f77748ddea2058352fbb28563053b41704389c4ac546306e8e`](https://stellar.expert/explorer/testnet/tx/f68d96cb4218a3f77748ddea2058352fbb28563053b41704389c4ac546306e8e)
 
 ---
 
@@ -178,6 +178,13 @@ git clone <your-escrowforge-repo-url> && cd escrowforge
 # 2. Smart Contracts Workspace
 cd contracts/escrowforge
 cargo test                 # runs the 11 unit tests
+
+# (Optional) Deploy to Testnet
+stellar contract build
+stellar contract deploy \
+  --wasm target/wasm32-unknown-unknown/release/escrowforge.wasm \
+  --source <your-alias> \
+  --network testnet
 
 # 3. Frontend App
 cd ../../frontend
