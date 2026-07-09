@@ -154,9 +154,6 @@ The application implements three distinct, custom-designed user-facing error sta
 
 ![Mobile landing at 390px](screenshots/mobile-landing-390px.png)
 
-**Connected state + XLM balance**
-
-`PENDING — Take and place screenshot showing wallet address and live balance in the header, and escrow list for the connected account`
 
 **Live activity feed**
 
