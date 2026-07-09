@@ -11,7 +11,7 @@
 
 **Milestone-based escrow for client/provider payments on Stellar Testnet — funds locked in Soroban smart-contract custody and disbursed one stage at a time, with verifiable on-chain inter-contract transfers.**
 
-### 🔗 [Live Demo → PENDING](PENDING)
+### 🔗 [Live Demo → escrowforge.daisy-plop-curtsy.workers.dev](https://escrowforge.daisy-plop-curtsy.workers.dev/)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-`PENDING — Deploy frontend to Cloudflare / Vercel after testnet contract deployment and link here`
+**<https://escrowforge.daisy-plop-curtsy.workers.dev/>** — deployed on Cloudflare Workers, wired to the real testnet contract. Connect Freighter (testnet), create an escrow deal, disburse stages, and watch the tracker fill live.
 
 ## Demo Video (1–2 minutes)
 
