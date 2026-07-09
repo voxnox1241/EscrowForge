@@ -7,9 +7,27 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22C55E.svg)](LICENSE)
 
-Live Demo: `PENDING — Deploy frontend to Cloudflare / Vercel after testnet contract deployment`
+<div align="center">
 
-Demo Video (1–2 min): `PENDING — To be recorded by the human operator after deployment`
+**Milestone-based escrow for client/provider payments on Stellar Testnet — funds locked in Soroban smart-contract custody and disbursed one stage at a time, with verifiable on-chain inter-contract transfers.**
+
+### 🔗 [Live Demo → PENDING](PENDING)
+
+</div>
+
+![EscrowForge landing page — glassmorphic identity](screenshots/desktop-landing.png)
+
+## Live Demo
+
+`PENDING — Deploy frontend to Cloudflare / Vercel after testnet contract deployment and link here`
+
+## Demo Video (1–2 minutes)
+
+**[▶ Watch the full demo (MP4)](PENDING)** — `PENDING — To be recorded by the human operator after deployment`
+
+Preview:
+
+![Demo preview — first seconds of the recording](PENDING)
 
 ---
 
@@ -120,7 +138,37 @@ The application implements three distinct, custom-designed user-facing error sta
 
 ## Screenshots
 
-`PENDING — Take and place screenshots here showing mobile UI, wallet connected state, core flow, green CI pipeline, and test outputs`
+**Desktop landing — glassmorphic visual identity**
+
+![Desktop landing page](screenshots/desktop-landing.png)
+
+**Create Deal Form**
+
+![Create deal form](screenshots/create-form.png)
+
+**Escrow Detail**
+
+![Escrow detail workspace](screenshots/escrow-detail.png)
+
+**Mobile UI (390px)**
+
+![Mobile landing at 390px](screenshots/mobile-landing-390px.png)
+
+**Connected state + XLM balance**
+
+`PENDING — Take and place screenshot showing wallet address and live balance in the header, and escrow list for the connected account`
+
+**Live activity feed**
+
+`PENDING — Take and place screenshot showing disbursed milestone cards plus the Activity Feed polling real contract events`
+
+**CI/CD run**
+
+`PENDING — Take and place screenshot showing CI checks passing`
+
+**Test output**
+
+`PENDING — Take and place screenshot showing cargo test output`
 
 ---
 
