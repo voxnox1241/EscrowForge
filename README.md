@@ -54,7 +54,7 @@ If the agreement is aborted early, all still-secured (locked) stages are returne
 │                                                               │
 │   ┌──────────────────────┐  inter-contract  ┌─────────────┐  │
 │   │ EscrowForge Contract │      calls       │ Native XLM  │  │
-│   │ [PENDING - Address]  │ ───────────────► │ SAC (token) │  │
+│   │ CDX6W...DJDJY        │ ───────────────► │ SAC (token) │  │
 │   │ forge / disburse /   │  token.transfer  │ CDLZ…CYSC   │  │
 │   │ abort + events       │                  │             │  │
 │   └──────────────────────┘                  └─────────────┘  │
