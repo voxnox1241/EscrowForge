@@ -1,7 +1,7 @@
 export const ESCROW_CONTRACT =
-  process.env.NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS ?? "";
+  (process.env.NEXT_PUBLIC_ESCROW_CONTRACT_ADDRESS ?? "").trim();
 export const TOKEN_CONTRACT =
-  process.env.NEXT_PUBLIC_TOKEN_CONTRACT_ADDRESS ?? "";
+  (process.env.NEXT_PUBLIC_TOKEN_CONTRACT_ADDRESS ?? "").trim();
 export const NETWORK = process.env.NEXT_PUBLIC_STELLAR_NETWORK ?? "testnet";
 export const RPC_URL =
   process.env.NEXT_PUBLIC_STELLAR_RPC_URL ??
