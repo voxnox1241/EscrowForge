@@ -23,11 +23,7 @@
 
 ## Demo Video (1–2 minutes)
 
-**[▶ Watch the full demo (MP4)](PENDING)** — `PENDING — To be recorded by the human operator after deployment`
-
-Preview:
-
-![Demo preview — first seconds of the recording](PENDING)
+![EscrowForge Demo Walkthrough](screenshots/demo.gif)
 
 ---
 
